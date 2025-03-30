@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Sass/main.css">
+    <title>Formulario de Alta de Producto</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Registro de Producto</h1>
+    </header>
+    <main>
+        <form class="product-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div class="form-group">
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" name="precio" required min="0" step="0.01">
+            </div>
+
+            <div class="form-group">
+                <label for="stock">Stock:</label>
+                <input type="number" id="stock" name="stock" required min="0">
+            </div>
+
+            <div class="form-group">
+                <label for="marca">Marca:</label>
+                <input type="text" id="marca" name="marca" required>
+            </div>
+
+            <div class="form-group">
+                <label for="categoria">Categoría:</label>
+                <input type="text" id="categoria" name="categoria" required>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcion-corta">Descripción Corta:</label>
+                <textarea id="descripcion-corta" name="descripcion-corta" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcion-larga">Descripción Larga:</label>
+                <textarea id="descripcion-larga" name="descripcion-larga" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="envio-sin-cargo">Envío Sin Cargo:</label>
+                <input type="checkbox" id="envio-sin-cargo" name="envio-sin-cargo">
+            </div>
+
+            <div class="form-group">
+                <label for="edad-desde">Edad Desde:</label>
+                <input type="number" id="edad-desde" name="edad-desde" min="0">
+            </div>
+
+            <div class="form-group">
+                <label for="edad-hasta">Edad Hasta:</label>
+                <input type="number" id="edad-hasta" name="edad-hasta" min="0">
+            </div>
+
+            <div class="form-group">
+                <label for="foto">Foto:</label>
+                <input type="file" id="foto" name="foto" accept="image/*" required>
+            </div>
+
+            <button type="submit" class="form-button">Registrar Producto</button>
+        </form>
+    </main>
+</body>
+</html>
