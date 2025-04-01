@@ -1,13 +1,13 @@
 
-// Contenido principal
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 100px); // Resta la altura del encabezado
+    height: calc(100vh - 100px); 
 
     .product-form {
-        background-color: rgba(255, 255, 255, 0.9); // Fondo blanco semi-transparente
+        background-color: rgba(255, 255, 255, 0.9); 
         border-radius: 10px;
         padding: 40px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -52,11 +52,11 @@ main {
         }
     }
     .contact-form {
-        background-color: rgba(255, 255, 255, 0.9); // Fondo blanco semi-transparente
+        background-color: rgba(255, 255, 255, 0.9); 
         border-radius: 10px;
         padding: 40px;
         box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-        width: 50%; // Ancho adaptable
+        width: 50%; 
 
         .form-group {
             margin-bottom: 15px;
