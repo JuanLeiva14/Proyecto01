@@ -12,10 +12,10 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         const errorSpan = document.getElementById(field.errorId);
         
         if (!input.checkValidity()) {
-            errorSpan.textContent = input.title; // Muestra el mensaje de error
+            errorSpan.textContent = input.title; 
             valid = false;
         } else {
-            errorSpan.textContent = ''; // Limpia el mensaje de error
+            errorSpan.textContent = ''; 
         }
     });
 

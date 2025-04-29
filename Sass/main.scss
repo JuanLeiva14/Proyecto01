@@ -1,6 +1,16 @@
 
+@import "utils/variables";
+@import "utils/helpers";
+@import "utils/mixins";
+
 @import "abstracts/variables";
 
 @import "base/base";
+
 @import"components/card-form";
+@import"components/card-products";
+
 @import"layout/header.scss";
+@import"layout/nav";
+@import"layout/grid";
+
