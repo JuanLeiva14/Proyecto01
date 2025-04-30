@@ -5,3 +5,31 @@ $primary-color: #f39c12;
 $secondary-color: #2980b9; 
 $font-family: 'Arial', sans-serif; 
 $header-Border-radius: 10px; // Borde radius
+
+$black-color: #111;
+$white-color: #edebeb;
+
+$success-color: #2a892a;
+$danger-color: #a71010;
+$warning-color: #c1aa17;
+
+//Layout
+$body-bg-color: $light-secondary-color;
+$navbar-bg-color: $strong-secondary-color;
+
+//Grid
+$grid-columns: 12;
+
+//Spacings
+$spacings: (
+    m: margin,
+    mt: margin-top,
+    mb: margin-bottom,
+    ml: margin-left,
+    mr: margin-right,
+    p: padding,
+    pt: padding-top,
+    pb: padding-bottom,
+    pl: padding-left,
+    pr: padding-right,
+);
